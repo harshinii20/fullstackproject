@@ -1,0 +1,70 @@
+.popup-container {
+  position: fixed;
+  width: 15%;
+  height: 15%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  left: 40%;
+  top: 40%;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* Space between sections */
+  align-items: center;
+  text-align: center;
+}
+
+.popup-content h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #2c3e50;
+}
+
+.popup-content p {
+  font-size: 1rem;
+  color: #7f8c8d;
+  line-height: 1.5;
+}
+
+.popup-content .actions {
+  display: flex;
+  justify-content: space-between; /* Ensure even spacing between buttons */
+  width: 10%; /* Make buttons stretch to fill the container */
+}
+
+.popup-content .actions button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  flex: 1; /* Make buttons equal width */
+  margin: 0 0.5rem; /* Add space between buttons */
+}
+
+.popup-content .actions .close-btn {
+  background-color: #e74c3c;
+}
+
+.popup-content .actions .close-btn:hover {
+  background-color: #c0392b;
+}
+
+.popup-content .actions .secondary-btn:hover {
+  background-color: #2980b9;
+}
+.submissions-table{
+  width:70%
+}

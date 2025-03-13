@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #ece9e6 0%, #ffffff 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-container {
+  background-color:pink;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+ 
+  width: 100%;
+}
+
+.logo img {
+  width: 150px;
+  margin-bottom: 20px; /* Space between logo and heading */
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 30px; /* Space between heading and button */
+}
+
+.google-signin-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px; /* Space between button and divider */
+}
+
+.google-signin-button:hover {
+  background-color: #357ae8;
+}
+
+.google-signin-button img {
+  width: 30px;
+  margin-right: 10px; /* Adjust spacing between icon and text */
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: #ddd;
+  margin: 20px 0;
+}
+
+.login-note {
+  margin-top: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #9a3030;
+}

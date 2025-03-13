@@ -1,0 +1,91 @@
+.events-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .table-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #003366;
+  }
+  
+  .white-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+  }
+  
+  .submissions-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  .submissions-table th,
+  .submissions-table td {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  .submissions-table th {
+    background-color: #003366;
+    color: #fff;
+  }
+  
+  .submissions-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .verify-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .reject-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .verify-btn:hover {
+    background-color: #218838;
+  }
+  
+  .reject-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .certificate-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .certificate-link:hover {
+    text-decoration: underline;
+  }
+  
+  .status {
+    font-weight: bold;
+  }
+  
+  .status.pending {
+    color: #003366;
+  }
+  
+  .status.verified {
+    color: white;
+  }
+  
+  .status.rejected {
+    color: white;
+  }
+  

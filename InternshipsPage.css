@@ -1,0 +1,96 @@
+.technical-skills-container {
+    padding: 2rem;
+    width: 90%;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .technical-skills-container h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+  
+  .submissions-table {
+    width: 100%; /* Ensures it spans the container's width */
+    max-width: 100%; /* Prevents overflow */
+    border-collapse: collapse;
+    margin: auto; /* Centers the table horizontally */
+  }
+  
+  .submissions-table th, .submissions-table td {
+    border: 1px solid #ddd;
+    padding: 0.8rem; /* Adjusted for better spacing */
+    text-align: center;
+    word-wrap: break-word; /* Handles long text gracefully */
+  }
+  
+  .submissions-table th {
+    background-color: #2c3e50;
+    color: white;
+  }
+  
+  .submissions-table td {
+    background-color: #fff;
+  }
+  
+  .submissions-table td a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .submissions-table td a:hover {
+    text-decoration: underline;
+  }
+  
+  .submissions-table td input {
+    width: 30px;
+    padding: 0.3rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .submissions-table td button {
+    margin-right: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submissions-table td .verify-btn {
+    background-color: #1abc9c;
+    color: white;
+  }
+  
+  .submissions-table td .verify-btn:hover {
+    background-color: #16a085;
+  }
+  
+  .submissions-table td .reject-btn {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .submissions-table td .reject-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  .submissions-table td .status.verified {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .submissions-table td .status.rejected {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .submissions-table td .status.pending {
+    color: orange;
+    font-weight: bold;
+  }
+  

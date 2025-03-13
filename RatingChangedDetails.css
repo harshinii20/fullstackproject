@@ -1,0 +1,28 @@
+.rating-changed-container {
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rating-changed-list {
+    margin-top: 20px;
+  }
+  
+  .rating-changed-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    float: right;
+    cursor: pointer;
+  }
+  
